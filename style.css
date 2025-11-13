@@ -175,3 +175,8 @@ margin-right: 300px;
     padding: 12px;
   }
     }
+
+    a{
+  text-decoration: none;
+  color: black;
+}

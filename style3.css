@@ -1,0 +1,72 @@
+.elemento-com-linha {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(226, 228, 229, 1);
+  margin: 1em 0; 
+}
+
+.logo{
+    width: 200px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset{
+     width: 456;
+  height: 80;
+  opacity: 1;
+  gap: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 16px;
+  font-family: "Poppins";
+}
+
+fieldset form{
+     display: flex;
+  flex-direction: column;
+}
+
+input{
+    border: none;
+}
+
+p{
+    text-align: center;
+}
+
+.add{
+color: rgba(0, 122, 255, 1);
+}
+
+.confirmed-social{
+    display: flex;
+   justify-content: space-around;
+}
+
+button{
+width: 126px;
+height: 50px;
+opacity: 1;
+padding-right: 24px;
+padding-left: 24px;
+gap: 8px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid rgba(187, 191, 193, 1);
+background: rgba(255, 255, 255, 1);
+font-family: "Poppins";
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
