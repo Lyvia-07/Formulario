@@ -19,18 +19,6 @@ body {
   gap: 16px;
 }
 
-input{
-    border: none;
-}
-
-.count{
-    display: flex;
-   align-items: center;
- width: 90px;
-    gap: 60px;
-    justify-content: space-between;
-}
-
 fieldset{
      width: 456;
   height: 80;
@@ -42,6 +30,28 @@ fieldset{
   font-family: "Poppins";
 }
 
+fieldset form{
+     display: flex;
+  flex-direction: column;
+}
+
+input{
+    border: none;
+}
+
+p{
+    text-align: center;
+}
+
+.add{
+color: rgba(0, 122, 255, 1);
+}
+
+.confirmed-social{
+    display: flex;
+   justify-content: space-around;
+}
+
 button{
 width: 126px;
 height: 50px;
@@ -51,70 +61,9 @@ padding-left: 24px;
 gap: 8px;
 border-radius: 4px;
 border-width: 1px;
-border: 1px solid #007AFF;
-background: #007AFF;
+border: 1px solid rgba(187, 191, 193, 1);
+background: rgba(255, 255, 255, 1);
 font-family: "Poppins";
-margin-top: 20px;
-color: aliceblue;
-}
-
-.form-row {
-  display: flex;
-  gap: 24px; 
-  align-items: flex-start; 
-  background: white;
-  padding: 32px;
-  border-radius: 8px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-.count {
-  display: flex;
-  flex-direction: column; 
-  gap: 8px; 
-  
-
-  flex: 1; 
-}
-
-
-
-label {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-
-input, select {
-  padding: 10px 4px; 
-  font-size: 1.1rem;
-
-  border: none;
-  border-bottom: 2px solid #ccc;
-  
-  background-color: transparent; 
-  outline: none;
-}
-
-
-select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  
-
-  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
-  background-repeat: no-repeat;
-  background-position: right 0px top 50%;
-  background-size: 24px;
-  padding-right: 28px; 
-}
-
-
-input:focus, select:focus {
-  border-bottom: 2px solid #007bff;
 }
 
 a{
